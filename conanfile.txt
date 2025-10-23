@@ -1,0 +1,11 @@
+[requires]
+opencv/4.9.0
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+opencv/*:with_ffmpeg=False
+opencv/*:shared=False
+zlib/*:shared=False
